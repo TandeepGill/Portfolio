@@ -7,7 +7,7 @@ const Layout = (props) => {
   return (
     <Fragment>
       <Header />
-      <main>{props.children}</main>
+      <main className='bg-black text-white'>{props.children}</main>
       <Footer />
     </Fragment>
   );
