@@ -1,5 +1,5 @@
 const Header = (props) => {
-  return <header></header>;
+  return <header className='text-aqua bg-black'></header>;
 };
 
 export default Header;
