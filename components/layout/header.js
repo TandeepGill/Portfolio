@@ -32,16 +32,8 @@ const Header = () => {
             route={'/experience'}
             currentPage={currentPage}
           />
-          <NavItem
-            title={'Resume'}
-            route={'/resume'}
-            currentPage={currentPage}
-          />
-          <NavItem
-            title={'Contact'}
-            route={'/contact'}
-            currentPage={currentPage}
-          />
+          <NavItem title={'Resume'} currentPage={currentPage} isResume={true} />
+          <NavItem title={'Email'} currentPage={currentPage} isEmail={true} />
           <NavIcon
             link={'https://www.linkedin.com/in/tandeepgill/'}
             icon={<FaLinkedin />}
@@ -50,7 +42,7 @@ const Header = () => {
           <NavIcon
             link={'https://github.com/TandeepGill'}
             icon={<FaGithub />}
-            margin={'mx-2'}
+            margin={'mx-3'}
           />
         </ul>
       </nav>
