@@ -4,7 +4,7 @@ const NavIcon = (props) => {
   const margin = props.margin;
 
   return (
-    <li className={`${margin} text-3xl`}>
+    <li className={`${margin} hover:text-aqua text-3xl`}>
       <a href={props.link} target='_blank' rel='noreferrer noopener'>
         {icon}
       </a>
