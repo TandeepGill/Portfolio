@@ -4,35 +4,38 @@ const NavItem = (props) => {
   const title = props.title;
   const route = props.route;
   const currentPage = props.currentPage;
-  const email = props.isEmail;
-  const resume = props.isResume;
+  const isEmail = props.isEmail;
+  const isResume = props.isResume;
+  const routeToHome = props.onClick;
 
   return (
     <li
-      className={`mx-6 text-xl ${
-        currentPage === route ? 'text-aqua font-semibold' : ''
+      className={`hover:text-aqua mx-6 text-xl ${
+        currentPage === route ? 'text-aqua border-b-2 font-semibold' : ''
       }`}
     >
-      {email && (
+      {isEmail && (
         <a
           href='mailto:gill.tandeep@gmail.com'
           target='_blank'
           rel='noreferrer noopener'
+          onClick={routeToHome}
         >
           {title}
         </a>
       )}
-      {resume && (
+      {isResume && (
         <a
           href='TandeepGill_Resume.pdf'
           target='_blank'
           rel='noreferrer noopener'
+          onClick={routeToHome}
         >
           {title}
         </a>
       )}
 
-      {!email && !resume ? <Link href={route}>{title}</Link> : null}
+      {!isEmail && !isResume ? <Link href={route}>{title}</Link> : null}
     </li>
   );
 };

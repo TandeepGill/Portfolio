@@ -11,9 +11,13 @@ const Header = () => {
   const currentPage = router.pathname;
   const selectedStyle = 'text-aqua font-semibold';
 
+  const routeToHome = () => {
+    router.push('/');
+  };
+
   return (
-    <header className='h-16 bg-black text-white'>
-      <nav className='flex h-full items-center justify-center '>
+    <header className='sticky top-0 h-16 bg-black text-white'>
+      <nav className='flex h-full items-center justify-center'>
         <ul className='mx-auto flex content-center'>
           <NavItem title={'Home'} route={'/'} currentPage={currentPage} />
           <NavItem title={'About'} route={'/about'} currentPage={currentPage} />
@@ -32,8 +36,18 @@ const Header = () => {
             route={'/experience'}
             currentPage={currentPage}
           />
-          <NavItem title={'Resume'} currentPage={currentPage} isResume={true} />
-          <NavItem title={'Email'} currentPage={currentPage} isEmail={true} />
+          <NavItem
+            title={'Resume'}
+            currentPage={currentPage}
+            isResume={true}
+            onClick={routeToHome}
+          />
+          <NavItem
+            title={'Email'}
+            currentPage={currentPage}
+            isEmail={true}
+            onClick={routeToHome}
+          />
           <NavIcon
             link={'https://www.linkedin.com/in/tandeepgill/'}
             icon={<FaLinkedin />}
