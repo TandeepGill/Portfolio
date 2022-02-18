@@ -10,7 +10,7 @@ const NavItem = (props) => {
 
   return (
     <li
-      className={`hover:text-aqua mx-6 text-xl ${
+      className={`hover:text-aqua mx-6 my-4 text-xl lg:my-auto ${
         currentPage === route ? 'text-aqua border-b-2 font-semibold' : ''
       }`}
     >
@@ -24,6 +24,7 @@ const NavItem = (props) => {
           {title}
         </a>
       )}
+
       {isResume && (
         <a
           href='TandeepGill_Resume.pdf'
