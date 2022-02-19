@@ -100,7 +100,7 @@ const Header = () => {
       {closeIconVisible && (
         <div className='absolute flex h-full w-full flex-col items-center justify-center bg-black py-2 text-white'>
           <div className='flex w-full flex-1 flex-col items-center justify-center px-20 text-center'>
-            <nav className='flex h-full w-full items-start justify-center lg:hidden lg:items-center'>
+            <nav className='mt-10 flex h-full w-full items-start justify-center lg:hidden lg:items-center'>
               {allNavItems}
             </nav>
           </div>
