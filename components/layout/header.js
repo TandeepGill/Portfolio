@@ -22,8 +22,15 @@ const Header = () => {
     router.push('/');
   };
 
+  const mobileNavClickHandler = () => {
+    setCloseIconVisible(false);
+  };
+
   const allNavItems = (
-    <ul className='mx-auto flex flex-col content-center lg:flex-row'>
+    <ul
+      className='mx-auto flex flex-col content-center lg:flex-row'
+      onClick={mobileNavClickHandler}
+    >
       <NavItem title={'Home'} route={'/'} currentPage={currentPage} />
       <NavItem title={'About'} route={'/about'} currentPage={currentPage} />
       <NavItem title={'Skills'} route={'/skills'} currentPage={currentPage} />
