@@ -40,11 +40,6 @@ const Header = () => {
         currentPage={currentPage}
       />
       <NavItem
-        title={'Experience'}
-        route={'/experience'}
-        currentPage={currentPage}
-      />
-      <NavItem
         title={'Resume'}
         currentPage={currentPage}
         isResume={true}
