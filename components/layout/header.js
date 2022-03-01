@@ -32,7 +32,6 @@ const Header = () => {
       onClick={mobileNavClickHandler}
     >
       <NavItem title={'Home'} route={'/'} currentPage={currentPage} />
-      <NavItem title={'About'} route={'/about'} currentPage={currentPage} />
       <NavItem title={'Skills'} route={'/skills'} currentPage={currentPage} />
       <NavItem
         title={'Projects'}
