@@ -3,11 +3,11 @@ const SkillsCard = (props) => {
   const skills = props.skills || [];
 
   return (
-    <div className='border-aqua bg-teal m-9 flex h-72 w-60 flex-col rounded-lg border-2 p-2'>
+    <div className='border-aqua m-3 flex h-80 w-60 flex-col rounded-lg border-2 bg-black p-2 lg:m-9'>
       <h3 className='mb-3 text-2xl font-bold underline'>{title}</h3>
       {skills.map((skill) => {
         return (
-          <h5 key={skill} className='text-slate m-1 text-xl'>
+          <h5 key={skill} className='m-1 text-xl text-white'>
             {skill}
           </h5>
         );

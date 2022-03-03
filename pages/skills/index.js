@@ -7,13 +7,14 @@ const Skills = () => {
     'JavaScript',
     'React',
     'Redux',
+    'Next.js',
     'Tailwind',
     'CSS3',
     'HTML5',
   ];
-  const backEnd = ['Node/Express', 'PostgreSQL', 'Sequelize'];
-  const devOps = ['Git', 'GitHub'];
-  const otherTools = ['Postico', 'Postman'];
+  const backEnd = ['Node', 'Express', 'PostgreSQL', 'Sequelize'];
+  const devOps = ['Git', 'GitHub', 'Heroku', 'Vercel'];
+  const otherTools = ['Postico', 'Postman', 'Test Driven Development'];
 
   return (
     <div className='flex min-h-screen flex-col items-center justify-center py-2'>
@@ -21,7 +22,7 @@ const Skills = () => {
         <title>Tandeep Gill - Full Stack SWE - Skills</title>
       </Head>
       <div className='mb-44 flex w-full flex-1 items-center justify-center px-20 text-center'>
-        <div className='flex items-start justify-center'>
+        <div className='flex flex-col items-start justify-center lg:flex-row'>
           <SkillsCard title='Frontend' skills={frontEnd} />
           <SkillsCard title='Backend' skills={backEnd} />
           <SkillsCard title='DevOps' skills={devOps} />
