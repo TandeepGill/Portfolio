@@ -23,10 +23,10 @@ const Skills = () => {
       </Head>
       <div className='mb-44 flex w-full flex-1 items-center justify-center px-20 text-center'>
         <div className='flex flex-col items-start justify-center lg:flex-row'>
-          <SkillsCard title='Frontend' skills={frontEnd} />
-          <SkillsCard title='Backend' skills={backEnd} />
-          <SkillsCard title='DevOps' skills={devOps} />
-          <SkillsCard title='Other Tools' skills={otherTools} />
+          <SkillsCard title='FRONTEND' skills={frontEnd} />
+          <SkillsCard title='BACKEND' skills={backEnd} />
+          <SkillsCard title='DEVOPS' skills={devOps} />
+          <SkillsCard title='OTHER TOOLS' skills={otherTools} />
         </div>
       </div>
     </div>
