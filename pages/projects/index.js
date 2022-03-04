@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import ProjectsCard from '../../components/projects/projects-card';
+
 const Projects = () => {
   const allProjects = [
     {
@@ -45,9 +47,22 @@ const Projects = () => {
       <Head>
         <title>Tandeep Gill - Full Stack SWE - Projects</title>
       </Head>
-      <div className='flex w-full flex-1 flex-col items-center justify-center px-20 text-center'>
-        <div className='mb-44 flex w-full flex-1 items-center justify-center px-20 text-center'>
-          <div className='flex flex-col items-start justify-center lg:flex-row'></div>
+      <div className='flex w-full flex-col items-center justify-center px-4 text-center lg:px-20'>
+        <div className='lg:w-7/12'>
+          <div className='flex w-full flex-col items-start justify-center'>
+            {allProjects.map((project) => {
+              return (
+                <ProjectsCard
+                  key={project.title}
+                  title={project.title}
+                  description={project.description}
+                  technologies={project.technologies}
+                  code={project.code}
+                  site={project.site}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
