@@ -7,7 +7,7 @@ const Layout = (props) => {
   return (
     <Fragment>
       <Header />
-      <main className='bg-slate text-aqua'>{props.children}</main>
+      <main className='bg-slate text-aqua static w-full'>{props.children}</main>
       <Footer />
     </Fragment>
   );

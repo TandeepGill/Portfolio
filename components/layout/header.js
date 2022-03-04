@@ -71,14 +71,14 @@ const Header = () => {
         {!closeIconVisible ? (
           <div>
             <FiMenu
-              className='hover:text-aqua z-10 mr-5 h-full justify-end text-3xl hover:cursor-pointer lg:hidden'
+              className='hover:text-aqua sticky z-30 mr-5 h-full justify-end text-3xl hover:cursor-pointer lg:hidden'
               onClick={() => setCloseIconVisible(true)}
             />
           </div>
         ) : (
           <div>
             <CgClose
-              className='hover:text-aqua z-10 mr-5 h-full justify-end text-3xl hover:cursor-pointer lg:hidden'
+              className='hover:text-aqua sticky z-30 mr-5 h-full justify-end text-3xl hover:cursor-pointer lg:hidden'
               onClick={() => setCloseIconVisible(false)}
             />
           </div>
@@ -92,9 +92,9 @@ const Header = () => {
       </header>
 
       {closeIconVisible && (
-        <div className='absolute flex h-full w-full flex-col items-center justify-center bg-black py-2 text-white'>
-          <div className='flex w-full flex-1 flex-col items-center justify-center px-20 text-center'>
-            <nav className='mt-10 flex h-full w-full items-start justify-center lg:hidden lg:items-center'>
+        <div className='fixed z-30 flex h-screen w-full flex-col items-center justify-center bg-black py-2 text-white lg:static lg:h-full'>
+          <div className='flex h-full w-full flex-1 flex-col items-center justify-center bg-black px-20 text-center'>
+            <nav className='mt-10 flex h-full w-full items-start justify-center bg-black lg:hidden lg:items-center'>
               {allNavItems}
             </nav>
           </div>
