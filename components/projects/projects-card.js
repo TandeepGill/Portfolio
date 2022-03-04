@@ -1,4 +1,4 @@
-const SkillsCard = (props) => {
+const ProjectsCard = (props) => {
   const title = props.title;
   const skills = props.skills;
 
@@ -16,4 +16,4 @@ const SkillsCard = (props) => {
   );
 };
 
-export default SkillsCard;
+export default ProjectsCard;
