@@ -21,7 +21,7 @@ const Skills = () => {
       <Head>
         <title>Tandeep Gill - Full Stack SWE - Skills</title>
       </Head>
-      <div className='mb-44 flex w-full items-center justify-center px-20 text-center'>
+      <div className='flex w-full items-center justify-center px-20 text-center lg:mb-44'>
         <div className='flex flex-col flex-wrap items-start justify-center lg:flex-row'>
           <SkillsCard title='FRONTEND' skills={frontEnd} />
           <SkillsCard title='BACKEND' skills={backEnd} />
