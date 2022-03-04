@@ -1,17 +1,45 @@
 const ProjectsCard = (props) => {
   const title = props.title;
-  const skills = props.skills;
+  const description = props.description;
+  const technologies = props.technologies;
+  const code = props.code;
+  const site = props.site;
 
   return (
-    <div className='border-aqua m-3 flex h-80 w-60 flex-col rounded-lg border-2 bg-black p-2 lg:m-9'>
-      <h3 className='mb-3 text-2xl font-bold underline'>{title}</h3>
-      {skills.map((skill) => {
-        return (
-          <h5 key={skill} className='m-1 text-xl text-white'>
-            {skill}
-          </h5>
-        );
-      })}
+    <div className='border-aqua  m-3 flex min-w-fit flex-col rounded-lg border-2 bg-black p-3 lg:m-9'>
+      <h2 className='mb-3 text-2xl font-bold'>{title}</h2>
+      <p className='mb-3 font-semibold text-white'>
+        <a
+          href={code}
+          target='_blank'
+          rel='noreferrer noopener'
+          className='hover:text-teal'
+        >
+          GitHub
+        </a>{' '}
+        |{' '}
+        <a
+          href={site}
+          target='_blank'
+          rel='noreferrer noopener'
+          className='hover:text-teal'
+        >
+          Site
+        </a>
+      </p>
+      <p className='mb-3 text-justify'>{description}</p>
+      <h3 className='text-lg font-semibold text-white underline'>
+        Technologies Used
+      </h3>
+      <div className='flex flex-wrap justify-center'>
+        {technologies.map((technology) => {
+          return (
+            <p key={technology} className='m-1 text-white'>
+              {technology} |
+            </p>
+          );
+        })}
+      </div>
     </div>
   );
 };
