@@ -21,18 +21,18 @@ const Home = () => {
           <h3 className='text-teal mb-4 text-3xl font-bold lg:mb-7 lg:text-5xl'>{`I'm a Full Stack Software Engineer.`}</h3>
           <p className='mb-4 max-w-2xl text-lg text-white lg:mb-7 lg:text-lg'>
             The world is continuously evolving and{' '}
-            <span className='text-teal font-bold italic'>technology</span> is
+            <span className='text-aqua font-bold italic'>technology</span> is
             becoming an integral part in all aspects of{' '}
-            <span className='text-teal font-bold italic'>society</span>, due to
+            <span className='text-aqua font-bold italic'>society</span>, due to
             the multiplying stream of{' '}
-            <span className='text-teal font-bold italic'>challenges</span> faced
+            <span className='text-aqua font-bold italic'>challenges</span> faced
             on a daily basis by companies and consumers. It&apos;s my{' '}
-            <span className='text-teal font-bold italic'>passion</span> and{' '}
-            <span className='text-teal font-bold italic'>love</span> for solving
+            <span className='text-aqua font-bold italic'>passion</span> and{' '}
+            <span className='text-aqua font-bold italic'>love</span> for solving
             these challenges which ultimately{' '}
-            <span className='text-teal font-bold italic'>drove</span> me to
+            <span className='text-aqua font-bold italic'>drove</span> me to
             become a{' '}
-            <span className='text-teal font-bold italic'>
+            <span className='text-aqua font-bold italic'>
               software engineer
             </span>
             .
