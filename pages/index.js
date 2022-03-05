@@ -20,11 +20,27 @@ const Home = () => {
           </h2>
           <h3 className='text-teal mb-4 text-3xl font-bold lg:mb-7 lg:text-5xl'>{`I'm a Full Stack Software Engineer.`}</h3>
           <p className='mb-4 max-w-2xl text-lg text-white lg:mb-7 lg:text-lg'>
-            {`The world is continuously evolving and technology is becoming an integral part in all aspects of
-            society, as there is a multiplying stream of challenges faced on a
+            The world is continuously evolving and{' '}
+            <span className='text-teal font-bold italic'>technology</span> is
+            becoming an integral part in all aspects of{' '}
+            <span className='text-teal font-bold italic'>society</span>, due to
+            the multiplying stream of{' '}
+            <span className='text-teal font-bold italic'>challenges</span> faced
+            on a daily basis by companies and consumers. It&apos;s my{' '}
+            <span className='text-teal font-bold italic'>passion</span> and{' '}
+            <span className='text-teal font-bold italic'>love</span> for solving
+            these challenges which ultimately{' '}
+            <span className='text-teal font-bold italic'>drove</span> me to
+            become a{' '}
+            <span className='text-teal font-bold italic'>
+              software engineer
+            </span>
+            .
+            {/* {`The world is continuously evolving and technology is becoming an integral part in all aspects of
+            society, due to the multiplying stream of challenges faced on a
             daily basis by companies and consumers. It's my passion and love for
-            solving these challenges, which ultimately drove me to become a
-            software engineer.`}
+            solving these challenges which ultimately drove me to become a
+            software engineer.`} */}
           </p>
           <button
             className='bg-aqua hover:bg-teal text-slate mt-4 w-44 items-center rounded-md border border-transparent px-6 py-3 text-base font-semibold hover:text-white lg:mt-7'

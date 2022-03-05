@@ -6,8 +6,8 @@ const Skills = () => {
   const frontEnd = [
     'JavaScript',
     'React',
-    'Redux',
     'Next.js',
+    'Redux',
     'Tailwind',
     'CSS3',
     'HTML5',
