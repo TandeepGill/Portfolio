@@ -23,7 +23,7 @@ const Home = () => {
             The world is continuously evolving and{' '}
             <span className='text-aqua font-bold italic'>technology</span> is
             becoming an integral part in all aspects of{' '}
-            <span className='text-aqua font-bold italic'>society</span>, as a
+            <span className='text-aqua font-bold italic'>society</span> as a
             direct result of the{' '}
             <span className='text-aqua font-bold italic'>challenges</span> faced
             on a daily basis by companies and consumers. It&apos;s my{' '}
@@ -36,7 +36,7 @@ const Home = () => {
               software engineer
             </span>
             .
-            {/* {`The world is continuously evolving and technology is becoming an integral part in all aspects of society, as a direct result of the challenges faced on a daily basis by companies and consumers. It's my passion and love for solving these challenges which ultimately drove me to become a software engineer.`} */}
+            {/* {`The world is continuously evolving and technology is becoming an integral part in all aspects of society as a direct result of the challenges faced on a daily basis by companies and consumers. It's my passion and love for solving these challenges which ultimately drove me to become a software engineer.`} */}
           </p>
           <button
             className='bg-aqua hover:bg-teal text-slate mt-4 w-44 items-center rounded-md border border-transparent px-6 py-3 text-base font-semibold hover:text-white lg:mt-7'
