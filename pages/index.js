@@ -19,12 +19,12 @@ const Home = () => {
             Tandeep Gill.
           </h2>
           <h3 className='text-teal mb-4 text-3xl font-bold lg:mb-7 lg:text-5xl'>{`I'm a Full Stack Software Engineer.`}</h3>
-          <p className='mb-4 max-w-2xl text-lg text-white lg:mb-7 lg:text-lg'>
+          <p className='mb-3 max-w-2xl text-lg text-white lg:mb-3 lg:text-lg'>
             The world is continuously evolving and{' '}
             <span className='text-aqua font-bold italic'>technology</span> is
             becoming an integral part in all aspects of{' '}
-            <span className='text-aqua font-bold italic'>society</span>, due to
-            the multiplying stream of{' '}
+            <span className='text-aqua font-bold italic'>society</span>, as a
+            direct result of the{' '}
             <span className='text-aqua font-bold italic'>challenges</span> faced
             on a daily basis by companies and consumers. It&apos;s my{' '}
             <span className='text-aqua font-bold italic'>passion</span> and{' '}
