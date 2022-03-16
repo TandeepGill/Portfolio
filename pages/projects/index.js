@@ -5,6 +5,24 @@ import ProjectsCard from '../../components/projects/projects-card';
 const Projects = () => {
   const allProjects = [
     {
+      title: 'Rentalverse',
+      description:
+        'Rentalverse is a full stack web application designed and developed to help individuals and small real estate investment firms manage their rental properties. This is a unique individual project that I created from the ground up. The inspiration for this project came from my knowledge gained in my previous work experiences. I will be continuously working on this project to build out more complex features.',
+      technologies: [
+        'React',
+        'React Router',
+        'Redux',
+        'Axios',
+        'Tailwind',
+        'Express',
+        'PostgreSQL',
+        'Sequelize',
+        'Bcrypt and JWT (Authentication)',
+      ],
+      code: 'https://github.com/TandeepGill/Rentalverse',
+      site: 'TBD',
+    },
+    {
       title: 'BooyaTravel',
       description:
         'BooyaTravel is a collaborative travel itinerary planner. Features include drag and dropping activities/itineraries while planning an itinerary, realtime chat with collaborators, autocomplete for simple and quick searching, and markers rendering on the map depending on the list of locations. This is a FullStack Academy Capstone Project, spanning over three weeks, with four contributors working together using agile software development.',
@@ -20,6 +38,7 @@ const Projects = () => {
         'Tailwind',
         'Google Maps API',
         'Travel Advisor API',
+        'Bcrypt and JWT (Authentication)',
       ],
       code: 'https://github.com/Yaya-2109/Capstone',
       site: 'https://booya-travel.herokuapp.com/',
@@ -36,6 +55,7 @@ const Projects = () => {
         'Sequelize',
         'Axios',
         'Sass',
+        'Bcrypt and JWT (Authentication)',
       ],
       code: 'https://github.com/2109graceshopper/Udemy-Larks',
       site: 'https://udemylarks.herokuapp.com/',
