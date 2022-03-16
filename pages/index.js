@@ -24,7 +24,7 @@ const Home = () => {
             <span className='text-aqua font-bold italic'>technology</span> is
             becoming an integral part in all aspects of{' '}
             <span className='text-aqua font-bold italic'>society</span> as a
-            direct result of the{' '}
+            direct result of the many{' '}
             <span className='text-aqua font-bold italic'>challenges</span> faced
             on a daily basis by companies and consumers. It&apos;s my{' '}
             <span className='text-aqua font-bold italic'>passion</span> and{' '}
