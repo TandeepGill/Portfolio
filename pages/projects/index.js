@@ -77,7 +77,7 @@ const Projects = () => {
       </Head>
       <div className='flex w-full flex-col items-center justify-center px-4 text-center lg:px-20'>
         <div className='lg:w-7/12'>
-          <div className='flex w-full flex-col items-start justify-center lg:mb-6'>
+          <div className='flex w-full flex-col items-start justify-center lg:mb-4'>
             {allProjects.map((project) => {
               return (
                 <ProjectsCard
