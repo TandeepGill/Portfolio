@@ -8,25 +8,20 @@ const ProjectsCard = (props) => {
   return (
     <div className='border-aqua  m-3 flex min-w-fit flex-col rounded-lg border-2 bg-black p-3 lg:mx-9 lg:my-7'>
       <h2 className='mb-3 text-2xl font-bold'>{title}</h2>
-      <p className='mb-3 font-semibold text-white'>
-        <a
-          href={code}
-          target='_blank'
-          rel='noreferrer noopener'
-          className='hover:text-teal'
-        >
-          GitHub
-        </a>{' '}
-        |{' '}
-        <a
-          href={site}
-          target='_blank'
-          rel='noreferrer noopener'
-          className='hover:text-teal'
-        >
-          Site
-        </a>
-      </p>
+      <div className='mb-3 font-semibold text-white'>
+        <div className='flex justify-center'>
+          <a href={code} target='_blank' rel='noreferrer noopener'>
+            <div className='text-slate bg-aqua hover:bg-teal mx-2 h-8 w-20 rounded-md p-1 hover:text-white'>
+              GitHub
+            </div>
+          </a>
+          <a href={site} target='_blank' rel='noreferrer noopener'>
+            <div className='text-slate bg-aqua hover:bg-teal mx-2 h-8 w-20 rounded-md p-1 hover:text-white'>
+              Site
+            </div>
+          </a>
+        </div>
+      </div>
       <p className='mb-3 text-justify'>{description}</p>
       <h3 className='text-lg font-semibold text-white underline'>
         Technologies Used
