@@ -11,12 +11,12 @@ const ProjectsCard = (props) => {
       <div className='mb-3 font-semibold text-white'>
         <div className='flex justify-center'>
           <a href={code} target='_blank' rel='noreferrer noopener'>
-            <div className='text-slate bg-aqua hover:bg-teal mx-2 h-8 w-24 rounded-md border border-transparent p-1 hover:text-white'>
+            <div className='text-slate bg-aqua hover:bg-teal mx-2 h-9 w-24 rounded-md border border-transparent py-1 hover:text-white'>
               GitHub
             </div>
           </a>
           <a href={site} target='_blank' rel='noreferrer noopener'>
-            <div className='text-slate bg-aqua hover:bg-teal mx-2 h-8 w-24 rounded-md border border-transparent p-1 hover:text-white'>
+            <div className='text-slate bg-aqua hover:bg-teal mx-2 h-9 w-24 rounded-md border border-transparent py-1 hover:text-white'>
               Site
             </div>
           </a>
