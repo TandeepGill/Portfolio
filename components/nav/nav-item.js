@@ -27,7 +27,7 @@ const NavItem = (props) => {
 
       {isResume && (
         <a
-          href='TandeepGill_Resume.pdf'
+          href='Tandeep_Gill_Resume.pdf'
           target='_blank'
           rel='noreferrer noopener'
           onClick={routeToHome}
