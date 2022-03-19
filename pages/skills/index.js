@@ -17,12 +17,12 @@ const Skills = () => {
   const otherTools = ['Postico', 'Postman', 'Test Driven Development'];
 
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center py-2'>
+    <div className='mx-4 flex min-h-screen flex-col justify-center py-2'>
       <Head>
         <title>Tandeep Gill - Full Stack SWE - Skills</title>
       </Head>
-      <div className='flex w-full items-center justify-center px-20 text-center lg:mb-44'>
-        <div className='flex flex-col flex-wrap items-start justify-center lg:flex-row'>
+      <div className='flex w-full flex-col items-center justify-center lg:mb-44 lg:flex-row lg:px-20'>
+        <div className='flex w-full flex-col items-start justify-center lg:flex-row lg:flex-wrap'>
           <SkillsCard title='FRONTEND' skills={frontEnd} />
           <SkillsCard title='BACKEND' skills={backEnd} />
           <SkillsCard title='DEVOPS' skills={devOps} />
