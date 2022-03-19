@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: 'Rentalverse',
       description:
-        'Rentalverse is a full stack web application designed and developed to help individuals and small real estate investment firms manage their rental properties. This is a unique individual project that I created from the ground up. The inspiration for this project came from my knowledge gained in my previous work experiences. I will be continuously working on this project to build out more complex features.',
+        'Rentalverse is a full stack web application designed and developed to help individuals and small real estate investment firms manage their rental properties. This is a unique individual project that I created from the ground up. The inspiration for this project came from my knowledge gained in my previous work experiences. I will be continuously working on this project to build out more complex features. A demo account has been set up, just visit the site and click sign in.',
       technologies: [
         'React',
         'React Router',
@@ -20,7 +20,7 @@ const Projects = () => {
         'Bcrypt and JWT (Authentication)',
       ],
       code: 'https://github.com/TandeepGill/Rentalverse',
-      site: 'TBD',
+      site: 'https://www.getrentalverse.com/',
     },
     {
       title: 'BooyaTravel',
