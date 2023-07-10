@@ -12,9 +12,22 @@ const Skills = () => {
     'CSS3',
     'HTML5',
   ];
-  const backEnd = ['Node', 'Express', 'PostgreSQL', 'Sequelize'];
+  const backEnd = [
+    'Java',
+    'Spring Boot',
+    'JPA/Hibernate',
+    'JUnit',
+    'Mockito',
+    'Node/Express',
+    'SQL',
+  ];
   const devOps = ['Git', 'GitHub', 'Heroku', 'Vercel'];
-  const otherTools = ['Postico', 'Postman', 'Test Driven Development'];
+  const otherTools = [
+    'Postico',
+    'Postman',
+    'Test Driven Development',
+    'MVC Design Pattern',
+  ];
 
   return (
     <div className='mx-4 flex min-h-screen flex-col justify-center py-2'>
