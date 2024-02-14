@@ -27,6 +27,7 @@ const Skills = () => {
     'Postman',
     'Test Driven Development',
     'MVC Design Pattern',
+    'Jira',
   ];
 
   return (
