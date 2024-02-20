@@ -5,6 +5,23 @@ import ProjectsCard from '../../components/projects/projects-card';
 const Projects = () => {
   const allProjects = [
     {
+      title: 'Parcel Tracker API',
+      description:
+        'Parcel Tracker is a backend application which allows users, both senders and receivers, to track their parcel. This application is designed with Java, Spring Boot and Hibernate. Unit testing is done via JUnit, along with Mockito. This application also uses Swagger UI for interactive API documentation for anyone to visualize the API resources available and make API calls to test out the endpoints. There is also entry and exit trace logging implemented using Log4j. Parcel Tracker is using an in memory relational database so it is easy for any user to download this repository and run the application.',
+      technologies: [
+        'Java',
+        'Spring Boot',
+        'H2 Database',
+        'Hibernate',
+        'Swagger UI',
+        'Log4j',
+        'JUnit',
+        'Mockito',
+      ],
+      code: 'https://github.com/TandeepGill/parcel-tracker-api',
+      site: 'https://github.com/TandeepGill/parcel-tracker-api',
+    },
+    {
       title: 'Rentalverse',
       description:
         'Rentalverse is a full stack web application designed and developed to help individuals and small real estate investment firms manage their rental properties. This is a unique individual project that I created from the ground up. The inspiration for this project came from my knowledge gained in my previous work experiences. I will be continuously working on this project to build out more complex features. A demo account has been set up, just visit the site and click sign in.',
