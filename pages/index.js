@@ -20,16 +20,16 @@ const Home = () => {
           </h2>
           <h3 className='text-teal mb-4 text-3xl font-bold lg:mb-7 lg:text-5xl'>{`I'm a Full Stack Software Developer.`}</h3>
           <p className='mb-3 max-w-2xl text-lg text-white lg:mb-3 lg:text-lg'>
-            The world is continuously evolving and{' '}
+            The world is continuously evolving, and{' '}
             <span className='text-aqua font-bold italic'>technology</span> is
-            becoming an integral part in all aspects of{' '}
+            becoming an integral part of all aspects of{' '}
             <span className='text-aqua font-bold italic'>society</span> as a
             direct result of the many{' '}
             <span className='text-aqua font-bold italic'>challenges</span> faced
-            on a daily basis by companies and consumers. It&apos;s my{' '}
+            on a daily basis by companies and consumers. My{' '}
             <span className='text-aqua font-bold italic'>passion</span> and{' '}
             <span className='text-aqua font-bold italic'>love</span> for solving
-            these challenges which ultimately{' '}
+            these challenges ultimately{' '}
             <span className='text-aqua font-bold italic'>drove</span> me to
             become a{' '}
             <span className='text-aqua font-bold italic'>
