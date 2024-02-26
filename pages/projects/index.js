@@ -37,7 +37,7 @@ const Projects = () => {
         'Bcrypt and JWT (Authentication)',
       ],
       code: 'https://github.com/TandeepGill/Rentalverse',
-      site: 'https://www.getrentalverse.com/',
+      site: 'https://github.com/TandeepGill/Rentalverse',
     },
     {
       title: 'BooyaTravel',
@@ -58,7 +58,7 @@ const Projects = () => {
         'Bcrypt and JWT (Authentication)',
       ],
       code: 'https://github.com/Yaya-2109/Capstone',
-      site: 'https://booya-travel.herokuapp.com/',
+      site: 'https://github.com/Yaya-2109/Capstone',
     },
     {
       title: 'Grace Shopper',
@@ -75,7 +75,7 @@ const Projects = () => {
         'Bcrypt and JWT (Authentication)',
       ],
       code: 'https://github.com/2109graceshopper/Udemy-Larks',
-      site: 'https://udemylarks.herokuapp.com/',
+      site: 'https://github.com/2109graceshopper/Udemy-Larks',
     },
     {
       title: 'Portfolio',
