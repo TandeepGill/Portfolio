@@ -3,7 +3,7 @@ const SkillsCard = (props) => {
   const skills = props.skills;
 
   return (
-    <div className='border-aqua my-3 flex h-80 w-full flex-col rounded-lg border-2 bg-black p-3 text-center lg:m-9 lg:w-60'>
+    <div className='border-aqua my-3 flex h-96 w-full flex-col rounded-lg border-2 bg-black p-3 text-center lg:m-9 lg:w-60'>
       <h3 className='mb-3 text-2xl font-bold'>{title}</h3>
       {skills.map((skill) => {
         return (
