@@ -4,6 +4,7 @@ import SkillsCard from '../../components/skills/skills-card';
 
 const Skills = () => {
   const frontEnd = [
+    'TypeScript',
     'JavaScript',
     'React',
     'Next.js',
@@ -18,16 +19,18 @@ const Skills = () => {
     'JPA/Hibernate',
     'JUnit',
     'Mockito',
-    'Node/Express',
+    'Node.js',
+    'Express.js',
     'SQL',
   ];
-  const devOps = ['Git', 'GitHub', 'Heroku', 'Vercel'];
+  const devOps = ['Git', 'GitHub', 'GitLab', 'Heroku', 'Vercel'];
   const otherTools = [
     'Postico',
     'Postman',
     'Test Driven Development',
     'MVC Design Pattern',
     'Jira',
+    'Confluence',
   ];
 
   return (
