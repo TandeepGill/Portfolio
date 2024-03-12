@@ -36,8 +36,8 @@ const Projects = () => {
         'Sequelize',
         'Bcrypt and JWT (Authentication)',
       ],
-      code: 'https://github.com/TandeepGill/Rentalverse',
-      site: 'https://github.com/TandeepGill/Rentalverse',
+      code: 'https://github.com/TandeepGill/Rentalverse-old',
+      site: 'https://github.com/TandeepGill/Rentalverse-old',
     },
     {
       title: 'BooyaTravel',
